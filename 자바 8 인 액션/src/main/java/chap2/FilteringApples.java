@@ -18,6 +18,8 @@ public class FilteringApples {
             }
         });
 
+
+
         //2.3.3 여섯 번째 시도 : 람다 표현식 사용
         List<Apple> result = filterApples(inventory, (Apple apple) -> "red".equals(apple.getColor()));
 
